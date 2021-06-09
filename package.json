@@ -11,10 +11,13 @@
     "url": "git+https://github.com/KarViktoryia/bolierplate-parce.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vika",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KarViktoryia/bolierplate-parce/issues"
   },
-  "homepage": "https://github.com/KarViktoryia/bolierplate-parce#readme"
+  "homepage": "https://github.com/KarViktoryia/bolierplate-parce#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
 }
