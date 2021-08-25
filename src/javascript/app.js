@@ -1,1 +1,2 @@
-console.info('Hello Java Script')
+// console.info('Hello Java Script');
+

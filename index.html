@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <title>Bolierplate Parcel.Js</title>
 
     <link rel="stylesheet" href="./src/scss/app.scss">
@@ -11,8 +13,121 @@
 
 </head>
 <body>
+  <header>
+    <div class="container">
+      <div class="header__container">
+        <p>студия маникюра</p>
+        <h4>+375 29 221-53-25</h4>
+        <div class="header__button">
+          <a href="#">заказать звонок</a>
+      </div>
+    </div>
+    <h1 class="header__title">ваши ногти говорят о вас всё расскажи историю красиво</h1>
+    </div>
+  </header>
 
-    <h1>Bolierplate Parcel.Js</h1>
+  <section class="quality">
+    <div class="container">
+      <div class="quality__container">
+        <div class="quality__item">
+          <div class="quality__icon"><i class="fas fa-pump-soap"></i></div>
+          <h3 class="quality__title">100% стерильность инструмента</h3>
+          <div class="quality__text">Все инструменты проходят 4 этапа стерилизации и упаковываются в крафтовый пакет, который открывается при вас. Для каждого клиента использую индивидуальные наборы.</div>
+        </div>
+        <div class="quality__item">
+          <div class="quality__icon"><i class="far fa-calendar-alt"></i></div>
+          <h3 class="quality__title">7 дней гарантии</h3>
+          <div class="quality__text">Предоставляю гарантию каждому клиенту. Если в течение недели вы обнаружите сколы или трещины на покрытии, переделаем маникюр бесплатно.</div>
+        </div>
+        <div class="quality__item">
+          <div class="quality__icon"><i class="fas fa-cut"></i></div>
+          <h3 class="quality__title">Профессиональные материалы</h3>
+          <div class="quality__text">Используем только профессиональные инструменты и закупаю материалы высшего качества напрямую от производителей.</div>
+        </div>
+      </div>
+      <div class="quality__wrap">
+        <h1>Уже хотите записаться на прием?</h1>
+        <div class="quality__buttom">
+          <a href="#">заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work">
+    <div class="container">
+      <div class="work__container">
+        <h2 class="work__title">примеры работ</h2>
+        <p>гарантия до 7 дней</p>
+      </div>
+      <div id="carouselExampleControls"  class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/src/img/photo_one.jpg" class="d-block w-100" style="height: 450px;" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/photo_two.jpg" class="d-block w-100" style="height: 450px;" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="/src/img/photo_three.jpg" class="d-block w-100" style="height: 450px;" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="work__link">
+        <h1 >подписывайтесь на мой инстаграм</h1>
+        <a href="https://www.instagram.com/zhenya_nails_b/">@zhenya__nails_b</a>
+    </div>
+    </div>
+  </section>
+
+  <section class="price">
+    <div class="container">
+      <h1 class="price__title">Прайс</h1>
+      <div class="price__text">
+        <p>Комбинированный маникюр........................................15р.</p>
+        <p>Комбинированный маникюр + покрытие гель-лаком.............................25р.</p>
+        <p>Комбинированный маникюр + укрепление гель-базой + покрытие гель-лаком.........30р.</p>
+        <p>снятия покрытия (другого мастерв).....................................3р.</p>
+        <p>Ремонт (1 ногтя)..................................................1р.</p>
+        <p>Дизайн (1 ногтя) стразы, наклейки, фольга, втирка..........................1р.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts__container">
+        <ul>
+          <li>
+            <div class="contacts__item">
+                <div class="contacts__icon"><i class="fas fa-map-marked-alt"></i></div>
+                <div class="contacts__text">г. Барановичи</div>
+            </div>
+        </li>
+          <li>
+            <div class="contacts__item">
+                <div class="contacts__icon"><i class="fab fa-instagram"></i></div>
+                <div class="contacts__text"><a href="https://www.instagram.com/zhenya_nails_b/">@zhenya__nails_b</a></div>
+            </div>
+        </li>
+        <li>
+            <div class="contacts__item">
+                <div class="contacts__icon"><i class="fas fa-mobile-alt"></i></div>
+                <div class="contacts__text"><a href="tel:+375292215325">+375 29 221-53-25</a></div>
+            </div>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 </body>
 </html>
